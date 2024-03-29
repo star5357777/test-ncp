@@ -72,12 +72,6 @@ variable "nacg_name" {
     type = string
 } 
 
-# ------------------------------------------------------------------------
-# Network Interface Variable
-variable "nic_name" {
-    type = string
-}
-
 # Server Variable
 variable "server" {
     type = map(object({
